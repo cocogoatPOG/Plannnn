@@ -1,5 +1,6 @@
 // ======= CONFIGURATION =======
 // Change text, image paths here
+let storyStep = 0;
 const messages = {
     firstPopup: { 
     content: `
@@ -40,8 +41,25 @@ envelope.addEventListener('click', () => {
 });
 
 popupClose.addEventListener('click', () => {
-    hidePopup();
+    nextStep();
 });
+
+function nextStep() {
+    storyStep++;
+
+    if(storyStep === 1) {
+        showPopup(messages.valentineAsk);
+    }
+    else if(storyStep === 2) {
+        showPopup(messages.bouquet);
+    }
+    else if(storyStep === 3) {
+        showGiftOptions();
+    }
+    else {
+        hidePopup();
+    }
+}
 
 function showPopup(content) {
     popupBody.innerHTML = content;
