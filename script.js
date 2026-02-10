@@ -23,7 +23,7 @@ const messages = {
     <img src="Polaroid1.jpeg" width="120"><img src="Polaroid2.jpeg" width="120"><img src="Polaroid3.jpeg" width="120">
     <br><button onclick="showGiftOptions()">Back</button>`,
     song: `<p>Song That Reminds Me of You 🎵</p>
-    <iframe width="100%" height="200" src="https://www.youtube.com/watch?v=pSAtptOY7dI" frameborder="0" allowfullscreen></iframe>
+    <iframe width="100%" height="200" src="https://youtu.be/pSAtptOY7dI?si=r1YGxUfUbJ1iiaA7" frameborder="0" allowfullscreen></iframe>
     <br><button onclick="showGiftOptions()">Back</button>`,
     longMessage: `<h2>To My Valentine ❤️</h2>
     <p>I LOVEEEE YOUUUUUUU SL SL SL SL SO SO SKOOOO MUCHHH</p>
