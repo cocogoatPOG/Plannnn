@@ -2,8 +2,13 @@
 // Change text, image paths here
 const messages = {
     firstPopup: { 
-        content: `<img src="Mahal.jpeg" width="250"><p>Hi mahal kooo! Here’s a little surprise ❤️</p>` 
-    },
+    content: `
+    <img src="Mahal.jpeg" width="250">
+    <p>Hi love! Here’s a little surprise ❤️</p>
+    <br>
+    <button onclick="showPopup(messages.valentineAsk)">Continue ❤️</button>
+    `
+},
     valentineAsk: `<p>Will you be my Valentine?</p><button onclick="valentineChoice('yes')">Yes</button> <button onclick="valentineChoice('no')">No</button>`,
     anotherChance: `<p>Aw, please? 😿</p><img src="Cat.gif" width="200"><button onclick="showPopup(valentineAsk)">Another Chance</button>`,
     bouquet: `<img src="Flowers.png" width="250"><p>I love you 💕</p><button onclick="showGiftOptions()">Continue</button>`,
