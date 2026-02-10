@@ -12,7 +12,7 @@ const messages = {
 },
     valentineAsk: `<p>Will you be my Valentine?</p><button onclick="valentineChoice('yes')">Yes</button> <button onclick="valentineChoice('no')">No</button>`,
     anotherChance: `<p>Aw, please? 😿</p><img src="Cat.gif" width="200"><button onclick="showPopup(valentineAsk)">Another Chance</button>`,
-    bouquet: `<img src="Flowers.png" width="250"><p>I love you 💕</p><button onclick="showGiftOptions()">Continue</button>`,
+    bouquet: `<img src="Flowers.jpeg" width="250"><p>I love you 💕</p><button onclick="showGiftOptions()">Continue</button>`,
     giftOptions: `<p>Surprise gift for you 🎁</p>
     <div>
         <button onclick="showFavoritePictures()">Favourite Pictures</button>
