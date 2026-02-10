@@ -1,36 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>For You ❤️</title>
-    
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valentine Surprise 💌</title>
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <div class="card">
-        <div class="heart">❤️</div>
-        <h1>Happy Valentine's Day</h1>
+<div class="envelope-container">
+    <img id="envelope" src="Envelope.jpeg" alt="Envelope" />
+    <p>Click Me ❤️</p>
+</div>
 
-        <img src="20250911_133012.jpg" alt="us" width="200"
-        
-        <p>
-            Hi love,  
-            I just want you to know how much you mean to me.  
-            Thank you for being in my life.  
-            I love you always. 💕
-        </p>
-
-        <button onclick="showMessage()">Click Me</button>
+<!-- Popup Layer -->
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <span id="popup-close">&times;</span>
+        <div id="popup-body">
+            <!-- Content dynamically injected here -->
+        </div>
     </div>
+</div>
 
-    <script>
-        function showMessage() {
-            alert("I love you so much ❤️");
-        }
-    </script>
+<audio id="bgMusic" src="Tibok - Earl Agustin (AshBin Version Music Video).mp3" autoplay loop></audio>
 
+<script src="script.js"></script>
 </body>
 </html>
