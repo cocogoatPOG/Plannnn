@@ -20,7 +20,7 @@ const messages = {
         <button onclick="showLongMessage()">To My Valentine</button>
     </div>`,
     favoritePictures: `<p>Favourite Pictures 📸</p>
-    <img src="Polaroid1.jpg" width="120"><img src="Polaroid2.jpg" width="120"><img src="Polaroid3.jpg" width="120">
+    <img src="Polaroid1.jpeg" width="120"><img src="Polaroid2.jpeg" width="120"><img src="Polaroid3.jpeg" width="120">
     <br><button onclick="showGiftOptions()">Back</button>`,
     song: `<p>Song That Reminds Me of You 🎵</p>
     <iframe width="100%" height="200" src="https://www.youtube.com/watch?v=pSAtptOY7dI" frameborder="0" allowfullscreen></iframe>
